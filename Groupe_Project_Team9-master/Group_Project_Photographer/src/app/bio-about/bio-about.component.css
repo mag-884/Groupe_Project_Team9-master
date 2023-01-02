@@ -1,0 +1,83 @@
+body {
+    font-family: "Sofia", cursive;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .container-bio {
+    width: 60%;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4e4b4b;
+    font-family: "Mate", serif;
+  }
+  ul li {
+    list-style: none;
+  }
+  .main {
+    background-color: #f7f5f5;
+    padding: 30px;
+  }
+  .main-img {
+    background-image: url(main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  .main-img h2 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    font-size: 3rem;
+  }
+  h3 {
+    font-family: "Mate", serif;
+  
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+  p {
+    font-family: "Sofia", cursive;
+  }
+  
+  h4 {
+    font-size: 2rem;
+  }
+  a::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #af9b8e;
+    margin-top: 10px;
+  }
+  
+  .about-one {
+    background-image: url(about1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  h2 {
+    font-family: "Sofia", cursive;
+  }
+  
+  .bio {
+    padding-top: 100px;
+  }
+  
+  h1 {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: "Sofia", cursive;
+    padding: 30px;
+  }
+  

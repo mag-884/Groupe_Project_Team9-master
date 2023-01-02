@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* background-color: rgb(170, 154, 143); */
+  }
+  
+  .scroll-to-top {
+    position: fixed;
+    bottom: 28vh;
+    right: 33px;
+    cursor: pointer;
+    z-index: 5;
+  }
+  
+  .title1 {
+    font-family: Century Gothic;
+    color: rgb(107, 94, 59);
+    font-size: 1vw;
+  }
+  
+  .title2 {
+    font-family: Century Gothic;
+    color: rgb(107, 94, 59);
+    font-size: .8vw;
+  }
+  
+  .textAward {
+    font-family: Century Gothic;
+    color: #d5d3c9ce;
+    font-size: 1vw;
+    font-style: italic;
+    background-color: #bcb598fe;
+    background: -webkit-gradient(linear, left top, right top, color-stop(2%, black), color-stop(36%, rgba(157, 117, 69, 0.933)), color-stop(56%, rgba(157, 117, 69, 0.933)), color-stop(98%, black));
+    background: linear-gradient(90deg, black 2%, rgba(157, 117, 69, 0.933) 36%, rgba(157, 117, 69, 0.933) 56%, black 98%);
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .mouse-invisible {
+    cursor: none;
+  }
+
+  img{
+    margin: 0px auto;
+    width: 80%;
+  }

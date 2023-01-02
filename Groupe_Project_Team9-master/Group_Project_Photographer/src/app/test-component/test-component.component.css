@@ -1,0 +1,47 @@
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 75%;
+}
+.swiper-slide img {
+  width: 75%;
+  height: auto;
+}
+
+#header{
+  text-align: center;
+  font-family: 'Mate', serif;
+}
+
+#middleHeader{
+  text-align: center;
+  font-family: 'Mate', serif;
+  font-size: 30px;
+}
+
+#middleParagaph{
+  text-align: center;
+}
+
+#middleDiv{
+  display: inline-flexbox;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: auto;
+  background-color: rgb(16, 13, 9);
+  margin: 0px auto;
+  padding: 40px 5px;
+}
+
+#comment{
+  font-size: 35px;
+  color: rgb(195, 175, 132);
+  font-family: 'Pinyon Script', cursive;
+}
+
+#name{
+  color: rgb(195, 175, 132);
+  font-family: 'Mate', serif;
+}

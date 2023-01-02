@@ -1,0 +1,107 @@
+nav{
+    background-color: white;
+    padding: 20px 0px;
+}
+
+.list ul, #btn{
+  display: flex;
+  justify-content: center;
+}
+
+ul{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 7.2rem;
+    right: 1.5rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 660px) {
+    .toggle-button{
+        display: flex;
+    }
+
+    .list{
+        /* display: none; */
+        width: 100%;
+    }
+
+    .list ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .list li{
+        text-align: center;
+    }
+
+    .list li a{
+        padding: .5rem 1rem;
+    }
+
+    .list.active{
+        display: flex;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+ul li {
+  list-style: none;
+  margin: 10px 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: 'Mate', serif;
+    font-size: 20px;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(197, 135, 64);
+    transition: all 0.2s ease-in-out;
+}
+
+#logo h1{
+    font-family: 'Sofia', cursive;
+    font-size: 40px;
+    text-align: center;
+    /* margin: 20px 0px; */
+}
+
+#btn button{
+    width: 180px;
+    height: 45px;
+    border: unset;
+    color: aliceblue;
+    background-color: rgb(76, 76, 76);
+    transition: all 0.2s ease-in-out;
+    font-size: 17px;
+    font-family: 'Mate', serif;
+}
+
+#btn button:hover{
+    background-color: rgb(114, 113, 113);
+    transition: all 0.2s ease-in-out;
+}

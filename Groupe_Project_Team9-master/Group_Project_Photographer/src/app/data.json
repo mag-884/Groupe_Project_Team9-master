@@ -1,0 +1,14 @@
+[
+        {
+            "categ": 2,
+            "short_txt": "High as a Kite",
+            "description": "captured 15.03.2021 in Oslo at the Telenor Arena",
+            "img_path": "./assets/img/concert/concerts_detail.jpg"
+        },
+        {
+            "categ": 2,
+            "short_txt": "The Brand New Heavies",
+            "description": "julie test test",
+            "img_path": "./assets/img/concert/concerts_detail.jpg"
+        }
+    ]
